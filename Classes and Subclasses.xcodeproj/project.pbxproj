@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		33C7D0C91D64EF0800A62B1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C7D0C81D64EF0800A62B1A /* main.m */; };
+		33C7D0D11D64F28D00A62B1A /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C7D0D01D64F28D00A62B1A /* Animal.m */; };
+		33C7D0D41D64F7AA00A62B1A /* Mammal.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C7D0D31D64F7AA00A62B1A /* Mammal.m */; };
+		33C7D0D71D64FD3C00A62B1A /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C7D0D61D64FD3C00A62B1A /* Human.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		33C7D0C51D64EF0800A62B1A /* Classes and Subclasses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classes and Subclasses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C7D0C81D64EF0800A62B1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33C7D0CF1D64F28D00A62B1A /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		33C7D0D01D64F28D00A62B1A /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		33C7D0D21D64F7AA00A62B1A /* Mammal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mammal.h; sourceTree = "<group>"; };
+		33C7D0D31D64F7AA00A62B1A /* Mammal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mammal.m; sourceTree = "<group>"; };
+		33C7D0D51D64FD3C00A62B1A /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		33C7D0D61D64FD3C00A62B1A /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				33C7D0C81D64EF0800A62B1A /* main.m */,
+				33C7D0CF1D64F28D00A62B1A /* Animal.h */,
+				33C7D0D01D64F28D00A62B1A /* Animal.m */,
+				33C7D0D21D64F7AA00A62B1A /* Mammal.h */,
+				33C7D0D31D64F7AA00A62B1A /* Mammal.m */,
+				33C7D0D51D64FD3C00A62B1A /* Human.h */,
+				33C7D0D61D64FD3C00A62B1A /* Human.m */,
 			);
 			path = "Classes and Subclasses";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C7D0D41D64F7AA00A62B1A /* Mammal.m in Sources */,
 				33C7D0C91D64EF0800A62B1A /* main.m in Sources */,
+				33C7D0D11D64F28D00A62B1A /* Animal.m in Sources */,
+				33C7D0D71D64FD3C00A62B1A /* Human.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

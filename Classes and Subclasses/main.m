@@ -7,11 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Animal.h"
+#import "Mammal.h"
+#import "Human.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Animal * animal = [[Animal alloc] initWithSpecies:@"Animal"];
+        Mammal * mammal = [[Mammal alloc] initWithSpecies:@"Mammal" hairColor:@"Brown"];
+        Human * human = [[Human alloc] initWithSpecies:@"Human"hairColor:@"Brown" favoriteProgrammingLanguage:@"Java"];
+        
+        NSLog(@"%@", animal);
+        NSLog(@"%@", mammal);
+        NSLog(@"%@", human);
+    
+        [animal eat];
+        [mammal haveLiveBirth];
+        [human doHardcoreParkour];
     }
     return 0;
 }
